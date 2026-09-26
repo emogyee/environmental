@@ -21,11 +21,13 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-*yb^!-jedfbv6e^x2*$#3
 DEBUG = True
 
 # FIX: Added your active Render domains to host rules
+# Whitelist your active environmental service domain alongside local development addresses
 ALLOWED_HOSTS = [
-    'royal-we6z.onrender.com',
-    'localhost',
-    '127.0.0.1',
+    'environmental-8yyo.onrender.com', 
+    'localhost', 
+    '127.0.0.1'
 ]
+
 
 # Application definition
 
