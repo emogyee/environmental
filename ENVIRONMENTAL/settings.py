@@ -22,11 +22,10 @@ DEBUG = True
 
 # FIX: Added your active Render domains to host rules
 ALLOWED_HOSTS = [
-    '://onrender.com',
+    'royal-we6z.onrender.com',
     'localhost',
     '127.0.0.1',
 ]
-
 
 # Application definition
 
